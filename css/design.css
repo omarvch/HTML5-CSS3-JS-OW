@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+head{
+	font-family: "Arial";
+}
+
+header{
+	position: relative;
+}
+
+header nav{
+	border: 1px solid green;
+}
+
+header nav ul{
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	left: 200px;
+}
+
+header nav ul li{
+	padding: 0px;
+	margin: 0px 1px;
+	display: inline-block;
+}
+
+a{
+color: red;
+text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#menu-principal{
+background: lightblue;
+}
+
+#alquileres{
+	width: 980px;
+	margin: 0px auto;
+}
+
+.casa-alquiler{
+	background: lightgray;
+	display: inline-block;
+	margin: 5px 5px;
+	padding: 15px;
+	width: 28%;
+	height: 200px;
+	position: relative;
+}
+
+.casa-alquiler h3{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+
+
+
+
