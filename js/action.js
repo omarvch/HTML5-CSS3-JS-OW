@@ -1,3 +1,5 @@
+
+
 function mostarMas(){
 	var masinfo = document.getElementById("textoResumen");
 
@@ -6,5 +8,11 @@ function mostarMas(){
 	}else{
 		masinfo.style.display = "none"
 	}
-	
 }
+$('#masInfo').on('click',function(e){
+	mostarMas();	
+});
+
+/*$(document).ready(fucntion(){
+	console.log("ready");
+});*/
