@@ -55,6 +55,20 @@ section article h3{
 	font-size: 20px;
 }
 
+section article a{
+	position: absolute;
+	top: 77px;
+	left: 21px;
+	text-decoration: none;
+}
+
+section article p{
+	font-size: 10px;
+	position: absolute;
+	top: 99px;
+	left: 10px;
+}
+
 footer{
 	background: #E3D15C;
 	position: fixed;
